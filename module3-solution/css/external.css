@@ -52,7 +52,10 @@ width: 100%
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 2px solid black;
 }
-
+.navbar-header:hover button.navbar-toggle:hover, .navbar-header:hover .icon-bar {
+  border: 2px solid white;
+  background-color: purple;
+}
 
 .navbar-header button.navbar-toggle {
   clear: both;
