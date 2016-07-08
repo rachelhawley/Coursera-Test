@@ -20,7 +20,7 @@
             <a href="index.html"><h1>FOOD LLC</h1></a>
            </div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -28,16 +28,18 @@
           </button>
         </div>
 
-      <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-             <li class="dropdown">
-          <a href="#" class="dropdown-toggle visible-sm"  role="button" aria-haspopup="true" aria-expanded="false"></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Chicken</a></li>
-            <li><a href="#">Beef</a></li>
-            <li><a href="#">Sushi</a></li>
-           </ul>
-        </li>
+       <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="#chicken">Chicken</a>
+            </li>
+            <li>
+              <a href="#beef">Beef</a>
+            </li>
+            <li>
+              <a href="#sushi">Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
       </div><!-- .container -->
     </nav>
@@ -46,7 +48,7 @@
 <div id="main-content" class="container">
   <h1>Our Menu</h1>
   <div class="section">
-    <h2 class="food-title"> Chicken</h2>
+    <h2 class="food-title" id="chicken"> Chicken</h2>
     <p> here is some information about chicken that i got from wikipedia <br>the chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a population of more than 19 billion as of 2011.[1] Humans keep chickens primarily as a source of food, consuming both their meat and their eggs.
 
     Genetic studies have pointed to multiple maternal origins in Southeast-, East-,[2] and South Asia, but with the clade found in the Americas, Europe, the Middle East and Africa originating in the Indian subcontinent. From India, the domesticated chicken was imported to Lydia in western Asia Minor, and to Greece by the fifth century BC.[3] Fowl had been known in Egypt since the mid-15th century BC, with the "bird that gives birth every day" having come to Egypt from the land between Syria and Shinar, Babylonia, according to the annals of Thutmose III.[4][5][6] The chicken genome has changed less from feathered ancestors eradicated by the Cretaceous–Paleogene extinction event than those of other sequenced avian dinosaurs.[7]In the UK and Ireland adult male chickens over the age of one year are primarily known as cocks, whereas in America, Australia and Canada they are more commonly called roosters. Males less than a year old are cockerels.[8] Castrated roosters are called capons (surgical and chemical castration are now illegal in some parts of the world). Females over a year old are known as hens and younger females as pullets[9] although in the egg-laying industry, a pullet becomes a hen when she begins to lay eggs at 16 to 20 weeks of age. In Australia and New Zealand (also sometimes in Britain), there is a generic term chook /ˈtʃʊk/ to describe all ages and both sexes.[10] The young are called chicks and the meat is called chicken.
@@ -63,7 +65,7 @@
     </p>
   </div>
   <div class="section">
-    <h2 class="food-title"> Beef</h2>
+    <h2 class="food-title" id="beef"> Beef</h2>
     <p> here is some information about beef that i got from wikipedia <br>
         Beef is the culinary name for meat from cattle. Beef can be harvested from bulls, heifers or steers. Its acceptability as a food source varies in different parts of the world.
 
@@ -81,7 +83,7 @@
     </p>
   </div>
   <div class="section">
-    <h2 class="food-title"> Sushi</h2>
+    <h2 class="food-title" id="Sushi"> Sushi</h2>
     <p> here is some information about Sushi from wikipedia <br> The original type of sushi, known today as nare-zush, 熟寿司,) was  
 
       Contemporary Japanese sushi has little resemblance to the traditional lacto-fermented rice dish. Originally, when the fermented fish was taken out of the rice, only the fish was consumed while the fermented rice was discarded.[3] The strong-tasting and smelling funazushi, a kind of narezushi made near Lake Biwa in Japan, resembles the traditional fermented dish. Beginning in the Muromachi period (1336–1573) of Japan, vinegar was added to the mixture for better taste and preservation. The vinegar accentuated the rice's sourness and was known to increase its shelf life, allowing the fermentation process to be shortened and eventually abandoned. In the following centuries, sushi in Osaka evolved into oshi-zushi. The seafood and rice were pressed using wooden (usually bamboo) molds. By the mid 18th century, this form of sushi had reached Edo (contemporary Tokyo).[4]
@@ -96,7 +98,7 @@
 
 
    <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-3.0.0.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
