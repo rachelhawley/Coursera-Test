@@ -1,17 +1,20 @@
 .container {
 margin-left: 0;
 margin-right: 0;
-width: 100%}
+width: 100%
+}
 
 #header-nav {
   background-color: purple;
   border-radius: 0;
   border: 0;
+  padding: 20px;
 }
 
 
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 5px;
+
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: Helvetica, serif;
@@ -23,6 +26,7 @@ width: 100%}
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+
 }
 
 
@@ -39,13 +43,23 @@ width: 100%}
 #nav-list a span {
   font-size: 1.8em;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -10px;
 }
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;}
+
  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
@@ -56,7 +70,7 @@ width: 100%}
   .section{
   	background-color: pink;
   	text-align: center;
-  	}
+  	} 	 
 
   .section p{
   	font-size: 1.5em;
