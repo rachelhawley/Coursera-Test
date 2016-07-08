@@ -29,7 +29,6 @@ width: 100%
 
 }
 
-
 #nav-list {
   margin-top: 10px;
 }
@@ -44,13 +43,16 @@ width: 100%
   font-size: 1.8em;
 }
 
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -10px;
-}
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 2px solid black;
+}
+
+
+
+.navbar-toggle:hover .collapsed:hover {
+  border: 2px solid white;
+  background-color: purple;
 }
 
 .navbar-header button.navbar-toggle {
@@ -59,28 +61,35 @@ width: 100%
 
  #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.5em;
+    background-color: white;
   }
+
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
   }
 
 
-  .section{
-  	background-color: pink;
-  	text-align: center;
-  	} 	 
+.food-desc{
+	background-color: pink;
+	text-align: center;
+	margin-bottom: 40px
+}
 
-  .section p{
+div > p{
   	font-size: 1.5em;
   }
 
   h1{
-  	text-align: center;
+
   	font-size: 4em;
-  	font-weight: bold;}
+  	font-weight: bold;
+  	margin-top: 0}
   
   h2{
   	text-align: center;
   	font-weight: bold;
+  	margin-bottom: 10px;
+  	padding-top: 10px;
+  	margin-top: 5px;
   }
