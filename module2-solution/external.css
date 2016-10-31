@@ -1,408 +1,94 @@
-<<<<<<< HEAD
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
-h1 {
-  margin-bottom: 15px;
-  text-align: center;
+.container {
+margin-left: 0;
+margin-right: 0;
+width: 100%
 }
 
-.row {
-  width: 100%;
-  padding-left: 15px
-
-}
-
-p {
+#header-nav {
   background-color: purple;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
-}
-.item {
-    background-color: purple;
-    border: 2px solid black;
-    position: relative;
-    margin-right: 15px;
-    margin-left: auto;
-    margin-bottom: 15px;
-    padding: 20px;
-    padding-top: 35px;
-    box-sizing: border-box;
-    min-width: 300px;
-}
-  h2 {
-    color: black;
-    font-family: Helvetica;
-    border: 1px solid black;
-    padding: 5px;
-    font-size: 125%;
-    width: 150px;
-    text-align: center;
-    margin-top: -13px;
-    margin-bottom: 0;
-    position: absolute;
-    right: -1px;
-    top: 12px;
-    }
-
-
-.t1 { background-color: pink;
-
- }
-
-.t2 { background-color: white;
-
- }
-
- .t3 { background-color: grey;
-
- }
-
-
-/* Simple Responsive Framework. */
-
-
-/********** Large devices only **********/
-@media (min-width: 950px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-          }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
+  border-radius: 0;
+  border: 0;
+  padding: 20px;
 }
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-      }
-  .col-md-1 {
-    width: 8.33%;
+
+.navbar-brand {
+  padding-top: 5px;
+
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Helvetica, serif;
+  color: pink;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: pink;
   }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
 }
 
 
 
-
-
-/********** mobile phone devices only **********/
-@media 767 (max-width: 991px) {
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-sm-1 {
-    width: 8.33%;
-  }
-  .col-sm-2 {
-    width: 16.66%;
-  }
-  .col-sm-3 {
-    width: 25%;
-  }
-  .col-sm-4 {
-    width: 33.33%d
-  }
-  .col-sm-5 {
-    width: 41.66%;
-  }
-  .col-sm-6 {
-    width: 50%;
-  }
-  .col-sm-7 {
-    width: 58.33%;
-  }
-  .col-sm-8 {
-    width: 66.66%;
-  }
-  .col-sm-9 {
-    width: 74.99%;
-  }
-  .col-sm-10 {
-    width: 83.33%;
-  }
-  .col-sm-11 {
-    width: 91.66%;
-  }
-  .col-sm-12 {
-    width: 100%;
-  }
-}
-
-=======
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
-h1 {
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-.row {
-  width: 100%;
-  padding-left: 15px
-
-}
-
-p {
+.navbar-toggle:hover .collapsed:hover {
+  border: 2px solid white;
   background-color: purple;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
-}
-.item {
-    background-color: purple;
-    border: 2px solid black;
-    position: relative;
-    margin-right: 15px;
-    margin-left: auto;
-    margin-bottom: 15px;
-    padding: 20px;
-    padding-top: 35px;
-    box-sizing: border-box;
-    min-width: 300px;
-}
-  h2 {
-    color: black;
-    font-family: Helvetica;
-    border: 1px solid black;
-    padding: 5px;
-    font-size: 125%;
-    width: 150px;
-    text-align: center;
-    margin-top: -13px;
-    margin-bottom: 0;
-    position: absolute;
-    right: -1px;
-    top: 12px;
-    }
-
-
-.t1 { background-color: pink;
-
- }
-
-.t2 { background-color: white;
-
- }
-
- .t3 { background-color: grey;
-
- }
-
-
-/* Simple Responsive Framework. */
-
-
-/********** Large devices only **********/
-@media (min-width: 950px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-          }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
 }
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-      }
-  .col-md-1 {
-    width: 8.33%;
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;}
+
+ #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.5em;
+    background-color: white;
   }
-  .col-md-2 {
-    width: 16.66%;
+
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
   }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
+
+
+.food-desc{
+	background-color: pink;
+	text-align: center;
+	margin-bottom: 40px
 }
 
+div > p{
+  	font-size: 1.5em;
+  }
 
+  h1{
 
+  	font-size: 4em;
+  	font-weight: bold;
+  	margin-top: 0}
 
-
-/********** mobile phone devices only **********/
-@media 767 (max-width: 991px) {
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left;
-    border: 1px solid green;
+  h2{
+  	text-align: center;
+  	font-weight: bold;
+  	margin-bottom: 10px;
+  	padding-top: 10px;
+  	margin-top: 5px;
   }
-  .col-sm-1 {
-    width: 8.33%;
-  }
-  .col-sm-2 {
-    width: 16.66%;
-  }
-  .col-sm-3 {
-    width: 25%;
-  }
-  .col-sm-4 {
-    width: 33.33%d
-  }
-  .col-sm-5 {
-    width: 41.66%;
-  }
-  .col-sm-6 {
-    width: 50%;
-  }
-  .col-sm-7 {
-    width: 58.33%;
-  }
-  .col-sm-8 {
-    width: 66.66%;
-  }
-  .col-sm-9 {
-    width: 74.99%;
-  }
-  .col-sm-10 {
-    width: 83.33%;
-  }
-  .col-sm-11 {
-    width: 91.66%;
-  }
-  .col-sm-12 {
-    width: 100%;
-  }
-}
-
->>>>>>> caf61b85b16a7ffb98a039bb04c94ee2fefd04ed
-</style>
