@@ -1,0 +1,98 @@
+.container {
+margin-left: 0;
+margin-right: 0;
+width: 100%
+}
+
+#header-nav {
+  background-color: purple;
+  border-radius: 0;
+  border: 0;
+  padding: 20px;
+}
+
+
+.navbar-brand {
+  padding-top: 5px;
+
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Helvetica, serif;
+  color: pink;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: pink;
+ 
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+
+
+.navbar-toggle:hover .collapsed:hover {
+  border: 2px solid white;
+  background-color: purple;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;}
+
+ #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.5em;
+    background-color: white;
+  }
+
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+
+.food-desc{
+	box-sizing: border-box;
+	background-color: pink;
+	text-align: center;
+	margin: 10px auto 10px;
+}
+
+div > p{
+  	font-size: 1.5em;
+  	padding-right: 10px;
+  	padding-left: 10px;
+  }
+
+  h1{
+
+  	font-size: 4em;
+  	font-weight: bold;
+  	margin-top: 0}
+  
+  h2{
+  	text-align: center;
+  	font-weight: bold;
+  	margin-bottom: 10px;
+  	padding-top: 10px;
+  	margin-top: 5px;
+  }
