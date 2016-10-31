@@ -34,8 +34,7 @@ width: 100%
 }
 #nav-list a {
   color: pink;
- 
-}
+  }
 #nav-list a:hover {
   background: #E7E7E7;
 }
@@ -71,16 +70,13 @@ width: 100%
 
 
 .food-desc{
-	box-sizing: border-box;
 	background-color: pink;
 	text-align: center;
-	margin: 10px auto 10px;
+	margin-bottom: 40px
 }
 
 div > p{
   	font-size: 1.5em;
-  	padding-right: 10px;
-  	padding-left: 10px;
   }
 
   h1{
@@ -88,7 +84,7 @@ div > p{
   	font-size: 4em;
   	font-weight: bold;
   	margin-top: 0}
-  
+
   h2{
   	text-align: center;
   	font-weight: bold;
