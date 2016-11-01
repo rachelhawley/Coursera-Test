@@ -1,0 +1,15 @@
+.good{
+  color:green;
+  border-style: solid;
+  border-width: medium;
+  border-color: green;
+  padding: 3px;
+}
+
+.bad{
+  color:red;
+  border-style: solid;
+  border-width: medium;
+  border-color: red;
+  padding: 3px;
+}
